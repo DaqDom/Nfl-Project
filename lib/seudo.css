@@ -1,0 +1,26 @@
+::-webkit-scrollbar {
+  background: hsl(215, 51%, 70%);
+}
+::-webkit-scrollbar-button {
+  background-color: hsl(215, 32%, 27%);
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: hsl(215, 50%, 20%);
+  border-radius: 20px;
+  border: 2px solid hsl(215, 51%, 70%);
+}
+.img:hover{
+    .icon-eye{
+        visibility: visible;
+        cursor: pointer;
+    }
+}
+.content-name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+b:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
